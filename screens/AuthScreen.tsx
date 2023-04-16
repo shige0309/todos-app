@@ -40,7 +40,7 @@ export const AuthScreen: FC = () => {
         placeholder="Enter password"
         secureTextEntry
         textContentType="password"
-        value={email}
+        value={password}
         onChangeText={(text: string) => setPassword(text)}
       />
       {authErr !== '' && (
