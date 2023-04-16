@@ -46,9 +46,6 @@ export const useGetTags = () => {
     };
   }, []);
 
-  useEffect(() => {
-    console.log(tags);
-  }, [tags]);
   return {
     tags,
     isLoading,
